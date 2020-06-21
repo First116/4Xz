@@ -10,7 +10,7 @@ white='\033[37;1m'
 yellow='\033[33;1m'
 
 clear
-ulang="y"
+ulang= "y"
  [ $ulang = "y" ] ;
 
     echo
@@ -27,6 +27,7 @@ ulang="y"
 read -p "Silahkan Pilih Menu :" pilih ;
 if [ $pilih = "1" ] ;
 then
+
       echo "installing Spam Call"
       cd $HOME
       apt uodate && aot uograde -y
