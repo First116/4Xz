@@ -11,7 +11,8 @@ yellow='\033[33;1m'
 
 clear
 ulang = "y"
- [ $ulang = "y" ] ;
+[ $ulang = "y" ] ;
+
 
     echo
     toilet -f big -F gay By 4!Xz
